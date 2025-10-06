@@ -1,0 +1,26 @@
+# Ignore compiled binary files
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore executables created from C++ builds
+main
+a.out
+*.bin
+
+# Ignore build directories
+/build/
+/bin/
+/dist/
+/Debug/
+/Release/
+
+# Ignore VS Code settings (optional)
+.vscode/
+
+# macOS system files
+.DS_Store
